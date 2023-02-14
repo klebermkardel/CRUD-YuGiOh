@@ -12,13 +12,37 @@
 <body>
     <div id="corpo-form-cad">
         <h1>NOVO USUÁRIO</h1>
-        <form action="" method="POST">
-            <input type="text" name="nome" placeholder="Nome Completo">
-            <input type="email" name="email" placeholder="E-mail">
-            <input type="password" name="senha" placeholder="Senha">
-            <input type="password" name="confSenha" placeholder="Confirmar Senha">
+        <form method="POST">
+            <input type="text" name="nome" placeholder="Nome Completo" maxlength="
+            100">
+            <input type="email" name="email" placeholder="E-mail" maxlength="100">
+            <input type="password" name="senha" placeholder="Senha" maxlength="15">
+            <input type="password" name="confSenha" placeholder="Confirmar Senha" maxlength="15">
             <input type="submit" value="CADASTRAR">
             <a href="index.php"><small>Já possui cadastro? <strong>ENTRAR!</strong></small></a>
         </form>
     </div>
-    
+    <?php
+
+
+
+    ?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- JavaScript External Link -->
+    <script src="assets/JS/script.js"></script>
+</body>
+</html>
