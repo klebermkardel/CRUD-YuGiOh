@@ -16,7 +16,12 @@ body {
     margin: 150px auto 0 auto;
 }
 
-#corpo-form h1 {
+#corpo-form-cad {
+    width: 420px;
+    margin: 100px auto 0 auto;
+}
+
+#corpo-form h1, #corpo-form-cad h1 {
     text-align: center;
     padding: 20px;
 }
