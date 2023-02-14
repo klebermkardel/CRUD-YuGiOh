@@ -10,6 +10,15 @@
     <link rel="stylesheet" href="assets/CSS/style.css">
 </head>
 <body>
+    <div id="corpo-form">
+        <h1>LOGIN</h1>
+        <form action="" method="POST">
+            <input type="email" name="email" placeholder="E-mail">
+            <input type="password" name="senha" placeholder="Senha">
+            <input type="submit" value="ENTRAR">
+            <a href="cadastrar.php"><small>Ainda não possui uma conta? <strong>CADASTRE-SE!</strong></small></a>
+        </form>
+    </div>
     
 
 
